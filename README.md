@@ -8,6 +8,9 @@ Aplicativo de anúncios de imóveis focado em corretoras.
 - TypeScript
 - Chakra UI
 - React Router DOM
+- Vite
+- Axios
+- React Query
 
 ## Estrutura do Projeto
 
@@ -19,7 +22,9 @@ src/
   ├── services/      # Serviços e integrações
   ├── hooks/         # Custom hooks
   ├── contexts/      # Contextos React
-  └── utils/         # Funções utilitárias
+  ├── utils/         # Funções utilitárias
+  ├── assets/        # Recursos estáticos
+  └── config/        # Configurações do projeto
 ```
 
 ## Como Executar
@@ -36,8 +41,11 @@ src/
 
 ## Funcionalidades
 
-- Cadastro de imóveis
-- Listagem de imóveis
-- Filtros de busca
-- Área do corretor
-- Dashboard administrativo
+- Cadastro e gerenciamento de imóveis
+- Listagem de imóveis com filtros avançados
+- Área do corretor com dashboard personalizado
+- Sistema de autenticação e autorização
+- Upload de imagens
+- Busca por localização
+- Favoritos
+- Histórico de visualizações
